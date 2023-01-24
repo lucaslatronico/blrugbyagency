@@ -1,0 +1,493 @@
+    /* --------------MEDIA TABLET----------------- */
+    @media (max-width:768px){
+
+        /* --------------index----------------- */
+        header{
+            height: 50px;
+            align-items: center;
+            p{
+                font-size: 25px;
+            }
+        }
+
+        nav{
+            ul{
+                padding-top: 0px;
+                margin-right: 10px;
+            }
+            li{
+                font-size: 15px;
+            }
+        }
+
+        .fondo
+            {
+            height: 200px
+        }
+        .fondo div h1{
+            font-size: 35px;
+            }
+        .fondo{
+            .tituloDos{
+            font-size: 20px;
+        }
+        }
+        .fondoColor {
+            width: 100%;
+        }
+
+        .quienesSomos{
+            text-align:center;
+            h2{
+                font-size: 30px;
+                margin-top: 0px;
+                padding-top: 15px;
+            }
+            p{
+                font-size: 15px;
+                margin-top: 10px;
+                width: 100%
+            }
+        }
+
+        .socios{
+            padding: 25px;
+            margin-top: 10px;
+            img{
+                width: 200px;
+            }
+            h3{
+                font-size: 20px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+
+        .footer{
+            height: 40px;
+            img{
+                width: 30px;
+            }
+            .contactoFooter{
+                p{
+                    font-size: 15px;
+                    padding-top: 5px;
+                }
+            .correo{
+                margin-left: 30px;
+                    }
+            }
+            .redes{
+                img{
+                    width: 30px;
+                    margin-right: 10px;
+                    padding-top: 5px;
+                }
+            }
+        }
+
+    /* --------------------SERVICIOS ----------*/
+    .fondoDos {
+        height: 150px;
+        h2{
+            font-size: 50px;
+            padding-top: 40px;
+        }
+    }
+
+    .servicios{
+        height: 350px;
+        div{
+            width: 450px;
+            margin: 20px;
+            text-align: center;
+        }
+        img{
+            width: 150px;
+        }
+        h3{
+            font-size: 18px;
+        }
+        p{
+            font-size: 15px;
+            margin: auto;
+        }
+    }
+/* ----------------------CASOS DE EXITO-------------------------- */
+.jugadores section div img{
+    width: 200px;
+    margin-top: 0px;
+}
+
+.lucas{
+    width: 100%;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+
+.jugador{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.descripcion{
+    font-size: 18px;
+}
+
+.cursiva{
+    display: none;
+    font-size: 20px;
+}
+
+.video{
+    width: 300px;
+    height: 200px;
+    margin: 0px
+}
+/* ----------------------CONTACTANOS-------------------------- */
+
+.contactos section{
+    width: 400px;
+    margin: 40px;
+}
+
+.logos{
+    div{
+        padding: 10px;
+    }
+    img{
+        width: 50px;
+    }
+    p{
+        font-size: 18px;
+        padding-left: 30px;
+    }
+}
+
+.donde h3{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.mapa{
+    padding-left: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+/* ---------------POSTULATE----------------- */
+.formulario{
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+fieldset{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    justify-content: center;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(240, 230, 230);
+}
+
+legend {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+input {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.parte{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 40px;
+}
+
+.parteUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.parteDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px
+}
+
+.enviar{
+    text-align: center;
+    input{
+        width: 30%;
+        height: 30px;
+        color:gray;
+        background-color: black;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+}
+
+/* --------------MEDIA MOBILE----------------- */
+
+@media (max-width:320px){
+
+    /* ---------------INDEX----------------- */
+    header {
+        height: 30px;
+        p{
+            font-size: 15px;
+        }
+    }
+
+    nav{
+        ul{
+            padding-top: 0px;
+        }
+        li{
+            font-size: 6px;
+        }
+    }
+
+    .fondo {
+    height: 100px
+    }
+.fondo div h1{
+    font-size: 15px;
+    padding-left: 0px;
+    padding-top: 10px;
+    }
+.fondo{
+    .tituloDos{
+    font-size: 12px;
+}
+}
+    .quienesSomos{
+        h2{
+            font-size: 20px;
+            padding-top: 5px;
+            }
+        p{
+            font-size: 10px;
+            margin-top: 5px;
+        }
+    }
+
+    .socios{
+        padding: 10px;
+        margin-top: 5px;
+        height: 300px;
+        flex-direction: column;
+        justify-content:space-evenly;
+        div{
+            flex-direction: row;
+            margin: 10px;
+        }
+        img{
+            width: 80px;
+        }
+        h3{
+            font-size: 15px;
+            margin: 20px;
+            text-align: center;
+        }
+        div div{
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            font-size: 7px;
+            flex-direction: column;
+            text-align: center;
+            width: 125px;
+        }
+    }
+    .footer{
+        height: 25px;
+        img{
+            width: 20px;
+        }
+        .contactoFooter{
+            p{
+                font-size: 8px;
+                padding-top: 5px;
+            }
+        .correo{
+            margin-left: 5px;
+        }
+    }
+        .redes{
+            img{
+                width: 20px;
+                margin-right: 5px;
+                padding-top: 2px;
+            }
+        }
+    }
+
+/* ---------------SERVICIOS----------------- */
+.fondoDos{
+    height: 80px;
+    h2{
+        font-size: 35px;
+        padding-top: 18px;
+    }
+}
+.servicios{
+    flex-direction: column;
+    height: 400px;
+    div{
+        flex-direction: row;
+        width: 300px;
+        margin: 0px;
+        height: 150px;
+        gap: 30px;
+    }
+    img{
+        width: 80px;
+        margin: auto;
+    }
+    h3{
+        font-size: 13px;
+        margin: auto;
+    }
+    p{
+        font-size: 11px;
+    }
+}
+
+/* ------------CASOS-------------- */
+.lucas{
+    margin: 0px;
+    text-align: center;
+}
+
+.jugadores img{
+    display: none;
+}
+
+.texto{
+    text-align: center
+}
+
+.jugador {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.descripcion{
+    font-size: 10px;
+}
+
+.video {
+    width: 200px;
+    height: 150px;
+    padding-top: 10px;
+}
+/* ------------CONTACTANOS-------------- */
+
+.contactos {
+    flex-direction: column;
+    section{
+        width: 250px;
+        justify-items: center;
+        margin-bottom: 5px;
+    }
+}
+
+.logos{
+    div{
+        padding: 5px;
+    }
+    img{
+        width: 25px;
+    }
+    p{
+        font-size: 10px;
+        padding-left: 15px;
+    }
+}
+
+.donde h3{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.mapa{
+    padding-left: 20px;
+    width: 230px;
+    height: 100px;
+}
+
+/* ---------------POSTULATE----------------- */
+.formulario{
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+fieldset{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+    font-size: 7px;
+    border: none;
+    background-color: rgb(240, 230, 230);
+    text-align: center;
+}
+
+legend {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+input {
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+}
+.parte{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 25px;
+}
+
+.parteUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.parteDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px
+}
+
+.enviar{
+    text-align: center;
+    input{
+        width: 30%;
+        height: 15px;
+        color:gray;
+        background-color: black;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+}

@@ -1,0 +1,258 @@
+.fondo {
+    @include fondocancha;
+    h1 {
+    font-family: $tipografia-logos;
+    font-size: 70px;
+    color: red;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+    .tituloDos{
+        font-family: $tipografia-logos;
+        font-size: 40px;
+        color: red;
+    }
+}
+
+
+.quienesSomos{
+    text-align: center;
+    h2{
+        font-family: $tipografia-headeryh2;
+        font-size: 60px;
+        padding-top: 60px;
+    }
+    p{
+        font-family: $tipografia-p;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+
+.fondoColor{
+    background-color: rgb(207, 204, 204);
+    width: 100%;
+}
+
+.socios {  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+    margin-top: 30px;
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    img{
+        border: 1px solid white ;
+        border-radius: 50%;
+        width: 400px;
+    }
+    h3{
+        font-family: $tipografia-headeryh2;
+        font-size: 30px;
+    }
+    p{
+        font-family: $tipografia-p;
+        font-size: 25px;
+    }
+}
+
+/* --------------SERVICIOS------------------- */
+
+.fondoDos{
+    @include fondopelota;
+    h2{
+        font-family: $tipografia-headeryh2;
+        font-size: 80px;
+        text-align: center;
+        padding-top: 100px; 
+    }
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 550px;
+    align-items: center;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 30px;
+    }
+    img{
+        width: 200px;
+    }
+    h3{
+        font-family: $tipografia-headeryh2;
+        text-justify:distribute;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    p{
+        font-family: $tipografia-p;
+        font-size: 25px;
+        text-align: center;
+        margin-top:0px;
+    }
+}
+
+/* -------------------CASOS------------------ */
+.jugadores {
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 300px;
+        border-radius: 50%;
+        margin-top: 30px;
+    }
+}
+
+.jugador{
+    font-family: $tipografia-headeryh2;
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.lucas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+.texto {
+    text-align: center;
+    width: 500px;
+}
+
+.descripcion {
+    font-family: $tipografia-p;
+    font-size: 25px;
+    
+}
+
+.cursiva {
+    font-family: $tipografia-cursiva;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.video{
+    margin: 50px;
+    align-items: center;
+}
+
+/* ---------------POSTULATE----------------- */
+.formulario{
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+fieldset{
+    width: 80%;
+    height: 750px;
+    margin: auto;
+    justify-content: center;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(240, 230, 230);
+    text-align: center;
+}
+
+legend {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+input {
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+}
+.parte{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 70px;
+}
+
+.parteUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 70px;
+}
+
+.parteDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 70px
+}
+
+.enviar{
+    text-align: center;
+    input{
+        width: 30%;
+        height: 50px;
+        color:gray;
+        background-color: black;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+/* ---------------CONTACTANOS----------------- */
+
+.contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    section{
+        background-color: white;
+        border-color: rgb(79, 76, 76);
+        width: 800px;
+        margin: 100px;
+    }
+}
+
+.logos{
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+    }
+    img{
+        width: 120px;
+    }
+    p{
+        font-size: 30px;
+        padding-left: 50px;
+        font-family: $tipografia-p;
+    }
+}
+
+.donde h3{
+    font-family: $tipografia-headeryh2;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.mapa {
+    padding-left: 100px;
+}

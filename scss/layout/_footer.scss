@@ -1,0 +1,27 @@
+.footer {
+    @include footer;
+    justify-content:space-evenly;
+    img{
+        width: 50px;
+        margin-right: 5px;
+    }
+    .contactoFooter{
+        display: flex;
+        flex-direction: row;
+        p{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 10px;
+            font-family: $tipografia-p;
+        }
+        .correo{
+            margin-left: 55px;
+        }
+    }
+    .redes{
+        img{
+            width: 50px;
+            margin-right: 20px;
+    }
+}
+}
