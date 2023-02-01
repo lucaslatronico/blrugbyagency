@@ -139,7 +139,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 550px;
+  height: 650px;
   align-items: center;
 }
 .servicios div {
